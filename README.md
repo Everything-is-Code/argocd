@@ -1,1 +1,1 @@
-oc apply -k argocd
+oc apply -k resources
