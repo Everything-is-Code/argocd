@@ -3,8 +3,6 @@ kind: Kustomization
 resources:
   - 00-argocd-namespace.yaml
   - 01-argocd-subscription.yaml
-#  - 02-argocd-rbac.yaml
-  
 components:
   - ./components/
   
